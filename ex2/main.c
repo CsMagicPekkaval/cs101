@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-// 只需要保留一个定义，使用 typedef
 typedef struct employee {
     int id;
     int age;
@@ -47,7 +46,7 @@ void emp_read_file(emp_t emp[],int n){
 
 int main() {
     emp_t emp[3];
-    //printf("sizeof(emp_t) = %lu\n", sizeof(a));  // 修改 %d 为 %lu
+    //printf("sizeof(emp_t) = %lu\n", sizeof(a));  
     emp[0].id = 1;
     emp[0].age = 20;
     emp[0].salary = 30000.0;
